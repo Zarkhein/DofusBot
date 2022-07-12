@@ -26,7 +26,7 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
-    if message.channel == client.get_channel(981154130859024394):
+    if message.channel == client.get_channel(TOKEN):
         nick_member = message.author.nick
         if nick_member != None:
             #Le découpage du pseudo
